@@ -1,8 +1,14 @@
 
 void setup(){
-  //some of your code here
+   size(500,500);
 }
 void draw(){
-  //more of your code here
+ellipse(250,250,200,200);
+fill(0,0,0);
+//left eye
+ellipse(210,225,20,20);
+//right eye
+ellipse(290,225,20,20);
+//curve();
 }
 
