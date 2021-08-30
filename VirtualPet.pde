@@ -2,20 +2,27 @@ void setup(){
    size(500,500);
    background(45,39,125);
 }
-void draw(){
-noStroke();
 
-/*//wings
-triangle(130,230,130,270,50,350);
-triangle(370,230,370,270,450,350);
-// wings should be at around x -cord: 250, y- cord = 200+ and thats for left wing and right wing is prob reflected
- */
+void draw(){
+//moon
+noStroke();
+fill(255,255,255);
+ellipse(0,0,150,150);
+ 
+ noStroke();
+
+//wings
+ fill(255,178,102);
  triangle(130,230,130,270,25,325);
  triangle(370,230,370,270,475,325);
  
- //ears
-
- //feet?
+//ears
+noStroke();
+fill(255,178,102);
+triangle(100,100,250,150,250,250);
+triangle(400,100,250,150,250,250);
+ 
+//feet
 stroke(1);
 fill(204,102,0);
 ellipse(175,395,20,50);
@@ -35,8 +42,8 @@ ellipse(295,415,10,20);
 ellipse(310,415,10,20);
 ellipse(325,415,10,20);
 
-  //body
- stroke(1);
+//body
+stroke(1);
 fill(255,178,102);
 ellipse(250,250,300,300);
 
@@ -47,7 +54,7 @@ fill(255,223,0);
 ellipse(200,200,100,100);
 ellipse(300,200,100,100);
 
-//iris?
+//iris
 strokeWeight(1);
 stroke(1);
 fill(0,0,0);
@@ -81,15 +88,6 @@ line(275,365,285,355);
 stroke(1);
 fill(239,179,40);
 triangle(240,240,260,240,250,260);
-
-/*
-triangle(200,200,300,300,100,250); 
-//fill(255,178,102);
-wing mods?
-//triangle(230-100,230,230-100,270,100-100,380);
-//triangle(370-20,230,370-20,270,425,350);*/
-//feet lab
-//rotate(-PI/12.0);
-//ellipse(100,400,150,75);
 }
+
 
